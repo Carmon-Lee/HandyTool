@@ -1,105 +1,97 @@
-package com.cmft.mcc.rpc.dto;
-
-import java.io.Serializable;
-import java.math.BigDecimal;
-
-import org.springframework.format.annotation.DateTimeFormat;
-
-/**
- * 客户保单
- */
-public class ClientPolicy implements Serializable {
-
-    public static final String TABLE_POLICY = "客户承保保单信息";
-    public static final String ALIAS_CLIENT_TYPE = "客户类型代码";
-    public static final String ALIAS_CLIENT_TYPE_DESC = "客户类型";
-    public static final String ALIAS_APPLY_BAR_CODE = "投保单号";
-    public static final String ALIAS_POLICY_NO = "保单号";
-    public static final String ALIAS_EFFECT_DATE = "生效日期";
-    public static final String ALIAS_MAIN_PRODUCT_PLAN = "主险名称";
-
-    public static final String ALIAS_DUTY_STATUS = "保单状态代码";
-    public static final String ALIAS_DUTY_STATUS_DESC = "保单状态";
-    public static final String ALIAS_UNDERWRITE_INFO = "核保信息";
-    public static final String ALIAS_CLAIM_INFO = "理赔信息";
-    public static final String ALIAS_POS_INFO = "保全信息";
-    public static final String ALIAS_POLICY_INFO = "保单信息";
-
-    public static final String ALIAS_APPLY_DATE = "投保日期";
-    public static final String ALIAS_APPLY_STATUS = "投保单状态代码";
-    public static final String ALIAS_APPLY_STATUS_DESC = "投保单状态";
-    public static final String ALIAS_APPLY_INFO = "投保单信息";
-
-
-    //客户类型 01投保人/02被保人/03投被保人
+    /**
+     *  客户类型 01投保人/02被保人/03投被保人
+     */
     private String clientType;
-    //客户类型描述
+    /**
+     *  客户类型描述
+     */
     private String clientTypeDesc;
-    //投保单系统编号
+    /**
+     *  投保单系统编号
+     */
     private String applyNo;
-    //投保单号
+    /**
+     *  投保单号
+     *  
+     */
     private String applyBarCode;
-    //保单号
+    /**
+     *  保单号
+     */
     private String policyNo;
-    //主险名称
+    /**
+     *  主险名称
+     */
     private String mainProductPlan;
-    //生效日期
+    /**
+     *  生效日期
+     */
     private java.util.Date effectDate;
-    //保单状态
+    /**
+     *  保单状态
+     */
     private String dutyStatus;
-    //保单状态描述
+    /**
+     *  保单状态描述
+     */
     private String dutyStatusDesc;
-    //投保单状态
+    /**
+     *  投保单状态
+     */
     private String applyStatus;
-    //投保单状态描述
+    /**
+     *  投保单状态描述
+     */
     private String applyStatusDesc;
-    //投保日期
+    /**
+     *  投保日期
+     */
     private java.util.Date applyDate;
     /**
-     * 投保人姓名
+     *  投保人姓名
      */
     private String appClientName;
     /**
-     * 投保人客户号
+     *  投保人客户号
      */
     private String appClientNo;
     /**
-     * 投保人姓名描述
+     *  投保人姓名描述
      */
     private String appClientSexDesc;
     /**
-     * 被保人姓名
+     *  被保人姓名
      */
     private String insClientName;
     /**
-     * 被保人客户号
+     *  被保人客户号
      */
     private String insClientNo;
     /**
-     * 保单渠道
+     *  保单渠道
      */
     private String channleType;
     /**
-     * 保单渠道描述信息
+     *  保单渠道描述信息
      */
     private String channelTypeDesc;
 
     /**
-     * 业务员信息
+     *  业务员信息
      */
     private EmployeeInfoManage employeeInfoManage;
 
     /**
-     * 合计保费
+     *  合计保费
      */
     private BigDecimal modalTotalPrem;
 
     /**
-     * 保单所属机构名称
+     *  保单所属机构名称
      */
     private String policyBranchName;
     /**
-     * 保单所属机构代码
+     *  保单所属机构代码
      */
     private String policyBranchCode;
 
@@ -256,14 +248,14 @@ public class ClientPolicy implements Serializable {
     }
 
     /**
-     * @param mainProductPlan the mainProductPlan to set
+     *  @param mainProductPlan the mainProductPlan to set
      */
     public void setMainProductPlan(String mainProductPlan) {
         this.mainProductPlan = mainProductPlan;
     }
 
     /**
-     * @return the mainProductPlan
+     *  @return the mainProductPlan
      */
     public String getMainProductPlan() {
         return mainProductPlan;
@@ -303,3 +295,6 @@ public class ClientPolicy implements Serializable {
 
 
 }
+
+
+
