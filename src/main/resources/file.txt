@@ -1,0 +1,25 @@
+agentName	"虚拟总监" (id=475)	
+agentNo	null	
+annualRate	null	
+appllicantClientNo	"C00000275609" (id=476)	
+appllicantName	"米塞哲职万以" (id=477)	
+applyBarCode	"1186020000754826" (id=478)	
+applyDate	null	
+applyNo	"A000000000015395" (id=479)	
+applyStatus	null	
+applyStatusDesc	null	
+channelTypeDesc	"个险" (id=480)	
+clientType	null	
+clientTypeDesc	null	
+dutyStatus	"1" (id=481)	
+dutyStatusDesc	"有效" (id=482)	
+effectDate	Date  (id=483)	
+email	null	
+insuredClientNo	"C00000275609" (id=484)	
+insuredName	"米塞哲职万以" (id=485)	
+mainProductPlan	"招商仁和爱相随医疗保险" (id=486)	
+policyBranchCode	"86480000" (id=487)	
+policyBranchName	"深圳中心支公司(虚拟四级)" (id=488)	
+policyMdiaType	"3" (id=489)	
+policyMediaTypeDesc	null	
+policyNo	"P000000000067486" (id=490)	
