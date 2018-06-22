@@ -24,8 +24,9 @@ public class FileUtils {
 	 * transter dto to json
 	 */
 	public static void dto2json(String file) throws Exception {
+		String classFile=FileUtils.class.getClassLoader().getResource(file).getFile();
 		BufferedReader reader = new BufferedReader(
-				new InputStreamReader(new FileInputStream(new File(file)), Charset.forName("UTF-8")));
+				new InputStreamReader(new FileInputStream(new File(classFile)), Charset.forName("UTF-8")));
 		JsonObject noNullobject = new JsonObject();
 		JsonObject withNullobject = new JsonObject();
 		String tempLine = reader.readLine();
@@ -138,10 +139,10 @@ public class FileUtils {
 
 	public static void main(String[] args) throws Exception {
 		//System.out.println("=====Dto to Json transter======");
-		//dto2json("D:\\file.txt");
+		dto2json("file.txt");
 		String file="File.java";
 		//System.out.println("/*****".indexOf("*/*"));
-		multy2singleAnno(file);
+		//multy2singleAnno(file);
 		//single2multiAnno(file);
 
 	}
