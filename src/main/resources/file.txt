@@ -1,21 +1,25 @@
-addressDesc	"中国广东省深圳市福田区祁常越果景必傅职雨记住答茅复雨房银板-招商局自动化测试-2" (id=876)	
-addressSeq	"20180000000048227428" (id=877)	
-branchCode	"86480000" (id=878)	
-branchName	"深圳中心支公司(虚拟四级)（86480000）" (id=880)	
-checked	null	
-client	null	
-dutyStatus	"有效" (id=881)	
-emailDesc	"13771635527@qq.com" (id=882)	
-emailSeq	"20180000000004001639" (id=883)	
-homePhoneDesc	null	
-homePhoneSeq	null	
-issueDate	Date  (id=884)	
-mobilePhoneDesc	"手机15842027736" (id=885)	
-mobilePhoneSeq	"20180000000042007084" (id=886)	
-officePhoneDesc	null	
-officePhoneSeq	null	
-phoneDesc	"手机15842027736" (id=887)	
-phoneSeq	"20180000000042007084" (id=888)	
-policyNo	"P000000000067486" (id=889)	
-postalCode	"518000" (id=890)	
-smsService	"Y" (id=891)	
+agentName	null	
+agentNo	null	
+annualRate	null	
+appllicantClientNo	null	
+appllicantName	null	
+applyBarCode	"1186020001173721" (id=9703)	
+applyDate	null	
+applyNo	"A000000000024455" (id=9704)	
+applyStatus	null	
+applyStatusDesc	null	
+channelTypeDesc	"个险" (id=9705)	
+clientType	"03" (id=9706)	
+clientTypeDesc	"投被保人" (id=9707)	
+dutyStatus	"1" (id=9708)	
+dutyStatusDesc	"有效" (id=9709)	
+effectDate	Timestamp  (id=9710)	
+email	null	
+insuredClientNo	null	
+insuredName	null	
+mainProductPlan	"招商仁和仁医保费用补偿医疗保险" (id=9711)	
+policyBranchCode	null	
+policyBranchName	null	
+policyMdiaType	"3" (id=9712)	
+policyMediaTypeDesc	null	
+policyNo	"P000000000078416" (id=9713)	
