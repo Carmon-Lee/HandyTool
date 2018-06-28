@@ -42,7 +42,8 @@ public class FileUtils {
 			}
 
 			if (value.equals("null"))
-				withNullobject.add(prop, JsonNull.INSTANCE);
+				withNullobject.addProperty(prop, value);
+				//withNullobject.add(prop, JsonNull.INSTANCE);
 			else
 				withNullobject.addProperty(prop, value);
 			if (!value.equals("null")) {

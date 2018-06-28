@@ -1,25 +1,43 @@
-agentName	null	
-agentNo	null	
-annualRate	null	
-appllicantClientNo	null	
-appllicantName	null	
-applyBarCode	"1186020001173721" (id=9703)	
-applyDate	null	
-applyNo	"A000000000024455" (id=9704)	
-applyStatus	null	
-applyStatusDesc	null	
-channelTypeDesc	"个险" (id=9705)	
-clientType	"03" (id=9706)	
-clientTypeDesc	"投被保人" (id=9707)	
-dutyStatus	"1" (id=9708)	
-dutyStatusDesc	"有效" (id=9709)	
-effectDate	Timestamp  (id=9710)	
-email	null	
-insuredClientNo	null	
-insuredName	null	
-mainProductPlan	"招商仁和仁医保费用补偿医疗保险" (id=9711)	
-policyBranchCode	null	
-policyBranchName	null	
-policyMdiaType	"3" (id=9712)	
-policyMediaTypeDesc	null	
-policyNo	"P000000000078416" (id=9713)	
+age	null	
+birthday	Timestamp  (id=5668)	
+birthdayBegin	null	
+birthdayEnd	null	
+birthdayStr	null	
+clientAttentionDesc	null	
+clientAttentionGrade	null	
+clientIp	null	
+clientIpDesc	null	
+clientName	"仁医回访二" (id=5670)	
+clientNoTmp	"C00000291950" (id=5671)	
+clientPhone	null	
+clientSex	"1" (id=5672)	
+clientSexDesc	"男性" (id=5673)	
+clientSrc	null	
+countryCode	null	
+countryCodeDesc	"中国" (id=5674)	
+deathDate	null	
+educationCode	null	
+educationCodeDesc	null	
+eMail	null	
+idNo	"11010120000101015X" (id=5675)	
+idType	"01" (id=5676)	
+idTypeDesc	"居民身份证" (id=5677)	
+idValidDate	Timestamp  (id=5678)	
+isVip	"N" (id=5679)	
+marriageCode	null	
+marriageCodeDesc	null	
+mediaType	null	
+mediaTypeDesc	null	
+nationCode	null	
+nationCodeDesc	null	
+occupationCode	"2099908" (id=5680)	
+occupationCodeDesc	"学龄前儿童" (id=5681)	
+occupationGrade	null	
+occupationGradeDesc	"一级" (id=5682)	
+position	"技术员" (id=5683)	
+registerPlace	null	
+remark	null	
+serviceObject	null	
+vipDesc	"否" (id=5152)	
+vipGrade	null	
+workUnit	"吧" (id=5684)	
